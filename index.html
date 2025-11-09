@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #fff;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      margin-bottom: 20px;
+    }
+
+    .cake {
+      font-size: 5em;
+      animation: bounce 1s infinite alternate;
+      margin-bottom: 20px;
+    }
+
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-20px); }
+    }
+
+    p {
+      color: #fff;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Happy Birthday! 🎉</h1>
+  <div class="cake">🍰</div>
+  <p>Wishing you a day full of joy and a year full of happiness!</p>
+</body>
+</html>
